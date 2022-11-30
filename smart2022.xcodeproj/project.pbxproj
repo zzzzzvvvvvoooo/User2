@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		890C5DF229372BCA005C8507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C5DF129372BCA005C8507 /* AppDelegate.swift */; };
+		890C5DF429372BCA005C8507 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C5DF329372BCA005C8507 /* SceneDelegate.swift */; };
+		890C5DF629372BCA005C8507 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C5DF529372BCA005C8507 /* ViewController.swift */; };
+		890C5DF929372BCA005C8507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890C5DF729372BCA005C8507 /* Main.storyboard */; };
+		890C5DFB29372BCF005C8507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890C5DFA29372BCF005C8507 /* Assets.xcassets */; };
+		890C5DFE29372BCF005C8507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890C5DFC29372BCF005C8507 /* LaunchScreen.storyboard */; };
+		890C5E0929372BCF005C8507 /* smart2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C5E0829372BCF005C8507 /* smart2022Tests.swift */; };
+		890C5E1329372BCF005C8507 /* smart2022UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C5E1229372BCF005C8507 /* smart2022UITests.swift */; };
+		890C5E1529372BCF005C8507 /* smart2022UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C5E1429372BCF005C8507 /* smart2022UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		890C5E0529372BCF005C8507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890C5DE629372BCA005C8507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890C5DED29372BCA005C8507;
+			remoteInfo = smart2022;
+		};
+		890C5E0F29372BCF005C8507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890C5DE629372BCA005C8507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890C5DED29372BCA005C8507;
+			remoteInfo = smart2022;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		890C5DEE29372BCA005C8507 /* smart2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smart2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		890C5DF129372BCA005C8507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		890C5DF329372BCA005C8507 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		890C5DF529372BCA005C8507 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		890C5DF829372BCA005C8507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		890C5DFA29372BCF005C8507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		890C5DFD29372BCF005C8507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		890C5DFF29372BCF005C8507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890C5E0429372BCF005C8507 /* smart2022Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smart2022Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		890C5E0829372BCF005C8507 /* smart2022Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smart2022Tests.swift; sourceTree = "<group>"; };
+		890C5E0E29372BCF005C8507 /* smart2022UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smart2022UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		890C5E1229372BCF005C8507 /* smart2022UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smart2022UITests.swift; sourceTree = "<group>"; };
+		890C5E1429372BCF005C8507 /* smart2022UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smart2022UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		890C5DEB29372BCA005C8507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890C5E0129372BCF005C8507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890C5E0B29372BCF005C8507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		890C5DE529372BCA005C8507 = {
+			isa = PBXGroup;
+			children = (
+				890C5DF029372BCA005C8507 /* smart2022 */,
+				890C5E0729372BCF005C8507 /* smart2022Tests */,
+				890C5E1129372BCF005C8507 /* smart2022UITests */,
+				890C5DEF29372BCA005C8507 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		890C5DEF29372BCA005C8507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				890C5DEE29372BCA005C8507 /* smart2022.app */,
+				890C5E0429372BCF005C8507 /* smart2022Tests.xctest */,
+				890C5E0E29372BCF005C8507 /* smart2022UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		890C5DF029372BCA005C8507 /* smart2022 */ = {
+			isa = PBXGroup;
+			children = (
+				890C5DF129372BCA005C8507 /* AppDelegate.swift */,
+				890C5DF329372BCA005C8507 /* SceneDelegate.swift */,
+				890C5DF529372BCA005C8507 /* ViewController.swift */,
+				890C5DF729372BCA005C8507 /* Main.storyboard */,
+				890C5DFA29372BCF005C8507 /* Assets.xcassets */,
+				890C5DFC29372BCF005C8507 /* LaunchScreen.storyboard */,
+				890C5DFF29372BCF005C8507 /* Info.plist */,
+			);
+			path = smart2022;
+			sourceTree = "<group>";
+		};
+		890C5E0729372BCF005C8507 /* smart2022Tests */ = {
+			isa = PBXGroup;
+			children = (
+				890C5E0829372BCF005C8507 /* smart2022Tests.swift */,
+			);
+			path = smart2022Tests;
+			sourceTree = "<group>";
+		};
+		890C5E1129372BCF005C8507 /* smart2022UITests */ = {
+			isa = PBXGroup;
+			children = (
+				890C5E1229372BCF005C8507 /* smart2022UITests.swift */,
+				890C5E1429372BCF005C8507 /* smart2022UITestsLaunchTests.swift */,
+			);
+			path = smart2022UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		890C5DED29372BCA005C8507 /* smart2022 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890C5E1829372BCF005C8507 /* Build configuration list for PBXNativeTarget "smart2022" */;
+			buildPhases = (
+				890C5DEA29372BCA005C8507 /* Sources */,
+				890C5DEB29372BCA005C8507 /* Frameworks */,
+				890C5DEC29372BCA005C8507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smart2022;
+			productName = smart2022;
+			productReference = 890C5DEE29372BCA005C8507 /* smart2022.app */;
+			productType = "com.apple.product-type.application";
+		};
+		890C5E0329372BCF005C8507 /* smart2022Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890C5E1B29372BCF005C8507 /* Build configuration list for PBXNativeTarget "smart2022Tests" */;
+			buildPhases = (
+				890C5E0029372BCF005C8507 /* Sources */,
+				890C5E0129372BCF005C8507 /* Frameworks */,
+				890C5E0229372BCF005C8507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890C5E0629372BCF005C8507 /* PBXTargetDependency */,
+			);
+			name = smart2022Tests;
+			productName = smart2022Tests;
+			productReference = 890C5E0429372BCF005C8507 /* smart2022Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		890C5E0D29372BCF005C8507 /* smart2022UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890C5E1E29372BCF005C8507 /* Build configuration list for PBXNativeTarget "smart2022UITests" */;
+			buildPhases = (
+				890C5E0A29372BCF005C8507 /* Sources */,
+				890C5E0B29372BCF005C8507 /* Frameworks */,
+				890C5E0C29372BCF005C8507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890C5E1029372BCF005C8507 /* PBXTargetDependency */,
+			);
+			name = smart2022UITests;
+			productName = smart2022UITests;
+			productReference = 890C5E0E29372BCF005C8507 /* smart2022UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		890C5DE629372BCA005C8507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					890C5DED29372BCA005C8507 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					890C5E0329372BCF005C8507 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 890C5DED29372BCA005C8507;
+					};
+					890C5E0D29372BCF005C8507 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 890C5DED29372BCA005C8507;
+					};
+				};
+			};
+			buildConfigurationList = 890C5DE929372BCA005C8507 /* Build configuration list for PBXProject "smart2022" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 890C5DE529372BCA005C8507;
+			productRefGroup = 890C5DEF29372BCA005C8507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				890C5DED29372BCA005C8507 /* smart2022 */,
+				890C5E0329372BCF005C8507 /* smart2022Tests */,
+				890C5E0D29372BCF005C8507 /* smart2022UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		890C5DEC29372BCA005C8507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890C5DFE29372BCF005C8507 /* LaunchScreen.storyboard in Resources */,
+				890C5DFB29372BCF005C8507 /* Assets.xcassets in Resources */,
+				890C5DF929372BCA005C8507 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890C5E0229372BCF005C8507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890C5E0C29372BCF005C8507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		890C5DEA29372BCA005C8507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890C5DF629372BCA005C8507 /* ViewController.swift in Sources */,
+				890C5DF229372BCA005C8507 /* AppDelegate.swift in Sources */,
+				890C5DF429372BCA005C8507 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890C5E0029372BCF005C8507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890C5E0929372BCF005C8507 /* smart2022Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890C5E0A29372BCF005C8507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890C5E1529372BCF005C8507 /* smart2022UITestsLaunchTests.swift in Sources */,
+				890C5E1329372BCF005C8507 /* smart2022UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		890C5E0629372BCF005C8507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890C5DED29372BCA005C8507 /* smart2022 */;
+			targetProxy = 890C5E0529372BCF005C8507 /* PBXContainerItemProxy */;
+		};
+		890C5E1029372BCF005C8507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890C5DED29372BCA005C8507 /* smart2022 */;
+			targetProxy = 890C5E0F29372BCF005C8507 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		890C5DF729372BCA005C8507 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				890C5DF829372BCA005C8507 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		890C5DFC29372BCF005C8507 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				890C5DFD29372BCF005C8507 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		890C5E1629372BCF005C8507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		890C5E1729372BCF005C8507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		890C5E1929372BCF005C8507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = smart2022/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.smart2022";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		890C5E1A29372BCF005C8507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = smart2022/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.smart2022";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		890C5E1C29372BCF005C8507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.smart2022Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smart2022.app/smart2022";
+			};
+			name = Debug;
+		};
+		890C5E1D29372BCF005C8507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.smart2022Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smart2022.app/smart2022";
+			};
+			name = Release;
+		};
+		890C5E1F29372BCF005C8507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.smart2022UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smart2022;
+			};
+			name = Debug;
+		};
+		890C5E2029372BCF005C8507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.smart2022UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smart2022;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		890C5DE929372BCA005C8507 /* Build configuration list for PBXProject "smart2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890C5E1629372BCF005C8507 /* Debug */,
+				890C5E1729372BCF005C8507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890C5E1829372BCF005C8507 /* Build configuration list for PBXNativeTarget "smart2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890C5E1929372BCF005C8507 /* Debug */,
+				890C5E1A29372BCF005C8507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890C5E1B29372BCF005C8507 /* Build configuration list for PBXNativeTarget "smart2022Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890C5E1C29372BCF005C8507 /* Debug */,
+				890C5E1D29372BCF005C8507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890C5E1E29372BCF005C8507 /* Build configuration list for PBXNativeTarget "smart2022UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890C5E1F29372BCF005C8507 /* Debug */,
+				890C5E2029372BCF005C8507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 890C5DE629372BCA005C8507 /* Project object */;
+}
